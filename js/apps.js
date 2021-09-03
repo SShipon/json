@@ -45,7 +45,7 @@ if (books.length > 0){
          const div = document.createElement("div");
          div.classList = 'col';
          div.innerHTML = `
-         <div class="card h-100">
+         <div class="card h-100  rounded">
                      <img class="img-size mt-2" src="https://covers.openlibrary.org/b/id/${book.cover_i ? book.cover_i: 10909258}-M.jpg" class="card-img-top" alt="...">
                      <div class="card-body">
                        <h6 class="card-title">${book.title}</h6>
